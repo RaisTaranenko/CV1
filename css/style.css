@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+  }
+
+  .main {
+    width: 75%;
+    float: right;
+    padding-left: 20px;
+  }
+
+  .sidebar {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(153, 144, 255, 1);
+  }
+
+  .figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .caption {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    font-size: 125%;
+    border-bottom:rgb(120, 113, 198) 3px solid;
+  }
+
+  .maincap {
+    color: rgba(153, 144, 255, 1);
+    font-weight: bold;
+    margin-left: 30%;
+    font-size: 125%;
+    border-bottom:rgb(120, 113, 198) 3px solid;
+  }
+
+  .subcap {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 125%;
+  }
+
+  .subcapB {
+    color: rgba(153, 144, 255, 1);
+    font-weight: bold;
+    margin-left: 30%;
+    font-size: 125%;
+  }
+
+  .bigcap{
+    color: rgba(153, 144, 255, 1);
+    font-weight: bold;
+    font-size: 200%;
+    margin-left: 30%;
+    margin-top: 0;
+    border-bottom:rgb(120, 113, 198) 3px solid;
+  }
+
+  .regulartext {
+    color: #fff;
+    font-weight: lighter;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 125%;
+  }
+  
+  .maintext {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: lighter;
+    margin-left: 30%;
+    margin-right: 5%;
+    font-size: 125%;
+  }
